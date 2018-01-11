@@ -1,6 +1,12 @@
 # Unit-Conversion
 R Package for converting between units of pressure and converting between units of mass
 
+    if (packageVersion("devtools") < 1.6) {
+            install.packages("devtools")
+    }
+
+    devtools::install_github("Jhumbl/Unit-Conversion")
+
 ### convert_pressure
 This function converts between units of:
 * Pascal
@@ -17,14 +23,10 @@ This function converts between units of:
 * Ounce
 * Pound
 
-    if (packageVersion("devtools") < 1.6) {
-            install.packages("devtools")
-    }
-
-    devtools::install_github("Jhumbl/Unit-Conversion")
+    
 
 ## Example Code
 To find out what 25atm is in Torr:
 
-    library(Unit-Conversions)
+    library(unitConversions)
     convert_pressure(25, "atm", "Torr")
