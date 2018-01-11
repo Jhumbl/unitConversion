@@ -1,4 +1,4 @@
-# Unit-Conversion
+# unitConversion
 R Package for converting between units of pressure and converting between units of mass
 
     if (packageVersion("devtools") < 1.6) {
@@ -30,3 +30,4 @@ To find out what 25atm is in Torr:
 
     library(unitConversions)
     convert_pressure(25, "atm", "Torr")
+    #> 25atm is equal to 19000Torr.
