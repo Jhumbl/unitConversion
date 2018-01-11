@@ -5,7 +5,7 @@ R Package for converting between units of pressure and converting between units 
             install.packages("devtools")
     }
 
-    devtools::install_github("Jhumbl/Unit-Conversion")
+    devtools::install_github("Jhumbl/unitConversion")
 
 ### convert_pressure
 This function converts between units of:
