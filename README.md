@@ -3,19 +3,19 @@ R Package for converting between units of pressure and converting between units 
 
 ### convert_pressure
 This function converts between units of:
-*Pascal
-*Bar
-*Atmospheric pressure
-*Torr
-*Millimeter of Mercury
+* Pascal
+* Bar
+* Atmospheric pressure
+* Torr
+* Millimeter of Mercury
 
 ### convert_weight
 This function converts between units of:
-*Gram
-*Kilogram
-*Grain
-*Ounce
-*Pound
+* Gram
+* Kilogram
+* Grain
+* Ounce
+* Pound
 
     if (packageVersion("devtools") < 1.6) {
             install.packages("devtools")
