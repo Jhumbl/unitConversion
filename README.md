@@ -7,7 +7,7 @@ R Package for converting between units of pressure and converting between units 
 
     devtools::install_github("Jhumbl/unitConversion")
 
-### convert_pressure
+### Convert Pressure
 This function converts between units of:
 * Pascal
 * Bar
@@ -15,7 +15,7 @@ This function converts between units of:
 * Torr
 * Millimeter of Mercury
 
-### convert_weight
+### Convert Weight
 This function converts between units of:
 * Gram
 * Kilogram
